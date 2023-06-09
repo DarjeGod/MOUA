@@ -1,4 +1,5 @@
 import { CustomButton } from "@/components";
+import DarkButton from "@/components/DarkButton";
 import { Box, Stack, Typography, Button, Container } from "@mui/material";
 import Link from "next/link";
 
@@ -47,7 +48,7 @@ const Layout1 = () => {
           The best way to learn and practice your brain powerful.
           </Typography>
 <Stack direction="row" spacing={2} mt={1} mb={2}>
-<Button variant="contained">Download</Button>
+<CustomButton variant="contained" color="info">Download</CustomButton>
 <CustomButton variant="outlined" color="primary">Contact Seller</CustomButton>
 </Stack>
         </Stack>
