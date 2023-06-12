@@ -9,9 +9,11 @@ const theme = createTheme({
     },
     secondary: {
       main: "#9ACA3C",
+      light: "#27AAE1",
     },
   },
   typography: {
+    fontFamily: "var(--font-inter)",
     h1: {
       fontSize: 64,
       fontWeight: 600,

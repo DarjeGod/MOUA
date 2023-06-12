@@ -4,12 +4,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components";
 import RootProvider from "@/providers/RootProvider";
-import { Box, Stack } from "@mui/material";
+import { Box, Container, CssBaseline, Stack } from "@mui/material";
 import Layout1 from './layout1'
 import Layout2 from './layout2'
 import Layout3 from './layout3'
 import Layout4 from './layout4'
-
+import Layout5 from './layout5'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +26,7 @@ export default function RootLayout({
           <Layout2/>
           <Layout3/>
           <Layout4/>
+          <Layout5/>
         </body>
       </html>
     </RootProvider>

@@ -21,3 +21,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
